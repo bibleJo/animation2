@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body,html {height: 100%;}
+body {
+    background:linear-gradient(#33ccff,#d7fdfd);
+    overflow: hidden;
+}
+#bg {
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -960px;
+}
+#cloud {
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    margin-left: -960px;
+}
+#cloud1 {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+#cloud2 {
+    position: absolute;
+    left: 700px;
+    top: 250px;
+}
+#cloud3 {
+    position: absolute;
+    left: 1200px;
+    top: 400px;
+}
+#cloud4 {
+    position: absolute;
+    left: 1500px;
+    top: 250px;
+}
+#car_left_1 {
+    position: absolute;
+    left: 100px;
+    bottom: -5px;
+    z-index: 9999;
+}
+#car_left_2 {
+    position: absolute;
+    left: 500px;
+    bottom: 5px;
+    z-index: 9999;
+}
+#car_left_3 {
+    position: absolute;
+    right: 820px;
+    bottom:30px;
+}
